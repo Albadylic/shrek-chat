@@ -36,7 +36,7 @@ function App() {
       </form>
       <div>
         <h2>Response:</h2>
-        <p>{response}</p>
+        <p>{response.response}</p>
       </div>
     </div>
   );
