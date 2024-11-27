@@ -2,10 +2,6 @@ import React, { useState } from "react";
 
 import { ReactComponent as Shrek } from "./shrek.svg";
 
-{
-  /* <a target="_blank" href="https://icons8.com/icon/26BhkJZRzRCR/shrek">Shrek</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */
-}
-
 function App() {
   const [question, setQuestion] = useState("");
   const [response, setResponse] = useState("");
@@ -15,7 +11,7 @@ function App() {
     setLoading(true);
     e.preventDefault();
     try {
-      const res = await fetch("http://127.0.0.1:8000/ask", {
+      const res = await fetch(`${process.env.REACT_APP_API_URL}/ask`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
