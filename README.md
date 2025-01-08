@@ -168,16 +168,6 @@ shrek-chatbot/
 
 ---
 
-## **Contributing**
-
-Contributions are welcome! Feel free to open issues or submit pull requests. Please adhere to the project's code of conduct.
-
----
-
 ## **License**
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
----
-
-Let me know if you need further adjustments to the README!
